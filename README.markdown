@@ -11,27 +11,25 @@ We have some rooms in our datacenter, and we need to connect them all with a sin
 * The duct must pass through each room exactly once.
 * The duct cannot pass through rooms we do not own.
 * The duct can connect between rooms horizontally or vertically but not diagonally.
-* Here is an example datacenter:
-2  0  0  0
-
-0  0  0  0
-
-0  0  3  1
+* Here is an example datacenter:  
+2  0  0  0  
+0  0  0  0  
+0  0  3  1  
         
 There are two possible ways to run the duct here:
 
-2--0--0--0
-         |
-0--0--0--0
-|
-0--0--3  1
-or
-
-2  0--0--0
-|  |     |
-0  0  0--0
-|  |  |
-0--0  3  1
+2--0--0--0  
+         |  
+0--0--0--0  
+|  
+0--0--3  1  
+or  
+  
+2  0--0--0  
+|  |     |  
+0  0  0--0  
+|  |  |  
+0--0  3  1  
 Write a program to compute the number of possible ways to run the duct. For the above example, the correct answer is 2.
 
 ## The solution
