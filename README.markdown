@@ -47,19 +47,20 @@ This is done using a simple key/value store : the key is a string representation
 
 ##The results
 The "advanced" board : 
-2 0 0 0 0 0 0
-0 0 0 0 0 0 0
-0 0 0 0 0 0 0
-0 0 0 0 0 0 0
-0 0 0 0 0 0 0
-0 0 0 0 0 0 0
-0 0 0 0 0 0 0
-3 0 0 0 0 1 1
-gives the following results on my Macbook Pro 2.26 Ghz :
+
+2 0 0 0 0 0 0  
+0 0 0 0 0 0 0  
+0 0 0 0 0 0 0  
+0 0 0 0 0 0 0  
+0 0 0 0 0 0 0  
+0 0 0 0 0 0 0  
+0 0 0 0 0 0 0  
+3 0 0 0 0 1 1  
+
+gives the following results on my Macbook Pro 2.26 Ghz :  
 *301716 solutions in 5193880 steps computed in 408.601 seconds (0.07866970357420656ms / step)*
 
 ## How to use
-* Compile : coffee -c quora.coffee
-* Run : node quora.js
+`coffee -c quora.coffee && node quora.js`
 
 
