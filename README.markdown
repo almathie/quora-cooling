@@ -56,7 +56,7 @@ The "advanced" board :
 3 0 0 0 0 1 1  
 
 gives the following results on my Macbook Pro 2.26 Ghz :  
-*301716 solutions in 5193880 steps computed in 408.601 seconds (0.07866970357420656ms / step)*
+*301716 solutions in 381568 steps computed in 91.567 seconds (0.2399755744716538ms / step)*
 
 ## How to use
 `coffee -c quora.coffee && node quora.js`
